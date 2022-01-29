@@ -1,0 +1,9 @@
+% gh, create, repo, push
+
+# create a remote repository from the current directory
+gh repo create <project> --<visibility> --source=. --remote=upstream
+
+% gh, create, repo, clone
+
+# create a new remote repository and clone it locally
+gh repo create <project> --<visibility> --clone

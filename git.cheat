@@ -1,0 +1,15 @@
+% git, tag, list, local
+# List all git tags in local
+git tag
+
+% git, tag, list, remote
+# List all git tags in remote
+git ls-remote --tags origin
+
+% git, tag, push, remote
+# push new git tags from local to remote
+git push --tags
+
+% git, tag, push, remote, one
+# push a specific git tags from local to remote
+git push origin <tag>

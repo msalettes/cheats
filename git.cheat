@@ -13,3 +13,11 @@ git push --tags
 % git, tag, push, remote, one
 # push a specific git tags from local to remote
 git push origin <tag>
+
+% git, cherry-pick, commit
+# get commit from another branch
+git cherry-pick <commit>
+
+% git, reset, remove, commit
+# remove last commit
+git reset --hard HEAD^
